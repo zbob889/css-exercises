@@ -1,0 +1,19 @@
+p {
+    background-color: #f4c2c2;
+    font-family: Verdana, sans-serif;
+}
+
+.twentyfour {
+    font-size: 24px;
+}
+
+#two {
+    color: #0048ba;
+    font-size: 36px;
+}
+
+#four {
+    background-color: #66ff00;
+    font-size: 24px;
+    font-weight: bold;
+}
