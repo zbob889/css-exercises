@@ -12,6 +12,13 @@ img {
   justify-content: center;
 }
 
+.image {
+  display: flex;
+  flex-direction: column;
+  margin-right: 52px;
+  margin-left: 52px;
+}
+
 .title {
   font-size: 36px;
   font-weight: 900;
