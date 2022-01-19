@@ -7,9 +7,17 @@ img {
   height: 100px;
 }
 
+.images {
+  display:flex;
+  justify-content: center;
+}
+
 .title {
   font-size: 36px;
   font-weight: 900;
+  margin-bottom: 32px;
+  display: flex;
+  justify-content: center;
 }
 
 /* do not edit this footer */
