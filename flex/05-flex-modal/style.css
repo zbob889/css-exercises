@@ -32,6 +32,7 @@ body {
   width: 42px;
   height: 42px;
   border-radius: 50%;
+  margin: 16px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -51,6 +52,12 @@ body {
   padding: 16px;
 }
 
+.text {
+  margin-bottom: 16px;
+  margin-left: 16px;
+  margin-right: 16px;
+}
+
 .close-button {
   background: #eee;
   border-radius: 50%;
@@ -59,11 +66,19 @@ body {
   font-size: 16px;
   height: 24px;
   width: 24px;
+  margin:16px;
   display: flex;
   align-items: center;
   justify-content: center;
   justify-self: flex-end;
   flex: 0 0 auto;
+}
+
+.buttons {
+  display: flex;
+  justify-content: left;
+  margin-left: 16px;
+  margin-bottom: 16px;
 }
 
 button {
