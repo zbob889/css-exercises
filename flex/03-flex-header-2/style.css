@@ -40,6 +40,9 @@ button {
   background: rebeccapurple;
   color: white;
   padding: 8px 24px;
+  height: 35px;
+  display: flex;
+  align-self: center;
 }
 
 .links {
