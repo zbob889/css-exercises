@@ -1,11 +1,28 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
 .header {
-  display: flex;
-
-
+display: flex;
+justify-content: space-between;
 }
 
+.left-links {
+display: flex;
+justify-content: flex-start;
+}
+
+.right-links {
+display: flex;
+}
+
+a {
+text-decoration: none;
+color: gray;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+}
 
 body {
   height: 100vh;
