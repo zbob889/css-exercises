@@ -5,6 +5,7 @@ body {
   margin: 0;
   overflow: hidden;
   font-family: Roboto, sans-serif;
+  position: relative;
 }
 
 .header {
@@ -39,6 +40,9 @@ color: gray;
   padding: 8px;
   background-color: lightgrey;
   height: 24px;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
 }
 
 img {
