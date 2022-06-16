@@ -54,6 +54,8 @@
 .sidebar {
   background-color: #FF7755;
   grid-area: 3 / 1 / 10 / 2;
+  gap: 50px;
+  display: grid;
 }
 
 .sidebar .photo {
@@ -70,6 +72,8 @@
   color: black;
   font-size: 16px;
   font-weight: normal;
+  display: grid;
+  align-items: center;
 }
 
 .nav {
