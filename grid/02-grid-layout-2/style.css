@@ -4,10 +4,13 @@ body, html {
 }
 
 .container {
+  display: grid;
   text-align: center;
   height: 100%;
   padding: 16px;
   box-sizing: border-box;
+  grid-template: 1fr 1fr 5fr 1fr / .5fr 1.5fr;
+  gap: 15px;
 }
 
 .container div {
